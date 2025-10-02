@@ -5,6 +5,7 @@ import Timeline from "../components/timeline";
 // import Team from "@/components/Team";
 import CTA from "../components/cta";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 export default function AboutPage() {
   return (
@@ -20,6 +21,7 @@ export default function AboutPage() {
         <CTA />
       </section>
     </main>
+    <Footer/>
     </>
   );
 }

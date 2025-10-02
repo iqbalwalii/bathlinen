@@ -3,6 +3,7 @@ import About from "./components/aboutus";
 import Hero from "./components/hero";
 import Help from "./components/help";
 import FeatureBoxes from "./components/featureboxes";
+import Footer from "./components/footer";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Help />
       <FeatureBoxes />
+      <Footer/>
     </main>
   );
 }

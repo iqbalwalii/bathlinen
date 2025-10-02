@@ -35,7 +35,7 @@ export default function AboutHero() {
           </h1>
 
           <p className="mt-6 text-sm md:text-base lg:text-lg text-stone-950/85 max-w-2xl">
-            Rooted in thoughtful design and meticulous sourcing, Bed & Bath Linen blends
+            Rooted in thoughtful design and meticulous sourcing, WarmKet blends
             heritage craftsmanship with modern textile innovation. Our collections are
             designed to feel familiar, look refined, and last — season after season.
           </p>

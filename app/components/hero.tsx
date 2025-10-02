@@ -42,7 +42,7 @@ export default function Hero() {
       {/* Text Content */}
       <div className="relative z-10 flex flex-col justify-center h-full px-6 sm:px-12 md:px-20 text-left text-white">
         <p className="text-xs sm:text-lg md:text-sm font-bold mb-4">
-          Welcome to Bed & Bath Linen
+          Welcome to WarmKet
         </p>
         <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium mb-2 text-amber-200">
           Experience Unrivaled <br/> Comfort with Our <br/>Luxury Collection

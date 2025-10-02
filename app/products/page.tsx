@@ -1,4 +1,5 @@
 // app/products/page.tsx
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import ProductCard from "../components/productcard";
 
@@ -71,6 +72,7 @@ export default function ProductsPage() {
         ))}
       </div>
     </section>
+    <Footer/>
             </>
   );
 }
