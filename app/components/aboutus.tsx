@@ -21,9 +21,9 @@ export default function AboutSection() {
         />
         <div className="absolute bottom-4 right-4 bg-white p-3 sm:p-4 rounded-xl shadow-md max-w-[80%] sm:max-w-[250px] text-sm">
           <div className="flex flex-col justify-center items-center">
-          <Gem className="w-7 h-7 sm:w-6 sm:h-6 mb-2 text-rose-400 justify-center" />
+          <Gem className="w-7 h-7 sm:w-6 sm:h-6 mb-2 text-sky-300 justify-center" />
           <p className="text-center">
-            <span className="font-bold text-lg text-center text-rose-400">We strongly value</span>  <br/>The Quality of
+            <span className="font-bold text-lg text-center text-amber-400">We strongly value</span>  <br/>The Quality of
             our products and are Committed to exceeding expectations with every
             detail.
           </p>

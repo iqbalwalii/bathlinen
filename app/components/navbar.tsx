@@ -9,11 +9,17 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="flex justify-between items-center px-6 py-4">
-        <h1 className="text-xl md:text-2xl font-bold">Bed & Bath Linen</h1>
+                <div className="flex flex-row items-center">
+                  <img src="/logo.svg" width={50} height={50} className="text-amber-900"/>
+                  
+                          <h1 className="text-xl md:text-2xl font-bold">WarmKet</h1>
+                </div>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
+          <a href="/" className="hover:text-gray-600">Home</a>
           <a href="#about" className="hover:text-gray-600">About</a>
+          <a href="/linen" className="hover:text-gray-600">Products</a>
           <a href="#choose" className="hover:text-gray-600">Why Choose Us</a>
           <a href="#help" className="hover:text-gray-600">Help</a>
         </div>
