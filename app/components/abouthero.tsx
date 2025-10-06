@@ -47,12 +47,12 @@ export default function AboutHero() {
             >
               Explore Our Values
             </a>
-            <a
+            {/* <a
               href="/products"
               className="inline-block px-5 py-3 rounded-lg border-2 border-blue-400 text-blue-400 hover:bg-blue-50 transition font-semibold"
             >
               View Products
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
