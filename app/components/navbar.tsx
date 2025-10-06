@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="flex justify-between items-center px-6 py-4">
                 <div className="flex flex-row items-center">
-                  <img src="/logo.png" width={80} height={80} className="text-amber-900"/>
+                  <img src="/logo.png" width={70} height={70} className="text-amber-900"/>
                   
                           {/* <h1 className="text-xl md:text-2xl font-bold">WarmKet</h1> */}
                 </div>
