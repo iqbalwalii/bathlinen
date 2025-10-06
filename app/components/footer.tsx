@@ -31,15 +31,29 @@ export default function Footer() {
         {/* Contact + Socials */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-amber-300">Connect With Us</h3>
-          <p className="text-sm text-blue-400 mb-4">
-            support@warmket.com  
-            <br /> +91 98765 43210
-          </p>
+          <p className="text-sm text-blue-400 mb-4 space-y-1">
+  <a href="mailto:info@warmket.com" className="block hover:text-amber-300 transition">
+    info@warmket.com
+  </a>
+
+  <a href="tel:+971559533290" className="block hover:text-amber-300 transition">
+    UAE: +971 55 953 3290
+  </a>
+
+  <a href="tel:+917006432968" className="block hover:text-amber-300 transition">
+    India: +91 70064 32968
+  </a>
+
+  <a href="tel:+919906888822" className="block hover:text-amber-300 transition">
+    India: +91 99068 88822
+  </a>
+</p>
+
           <div className="flex gap-4">
-            <a href="#" className="hover:text-amber-300 transition"><Facebook /></a>
-            <a href="#" className="hover:text-amber-300 transition"><Instagram /></a>
-            <a href="#" className="hover:text-amber-300 transition"><Twitter /></a>
-            <a href="mailto:support@war.com" className="hover:text-amber-300 transition"><Mail /></a>
+            {/* <a href="#" className="hover:text-amber-300 transition"><Facebook /></a> */}
+            <a href="https://instagram.com/warmket" className="hover:text-amber-300 transition"><Instagram /></a>
+            {/* <a href="#" className="hover:text-amber-300 transition"><Twitter /></a> */}
+            <a href="mailto:info@warmket.com" className="hover:text-amber-300 transition"><Mail /></a>
           </div>
         </div>
       </div>
