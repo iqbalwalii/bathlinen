@@ -79,7 +79,10 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-lg">Phone</h3>
                 <a href="tel:+971559533290" className="text-blue-400 block hover:text-amber-300 transition">
-    UAE: +971 55 953 3290
+                UAE: +971 55 953 3290
+                </a>
+   <a href="tel:+97145589179" className="text-blue-400 block hover:text-amber-300 transition">
+    UAE: +971 45 558 9179
   </a>
 
   <a href="tel:+917006432968" className="text-blue-400 block hover:text-amber-300 transition">
@@ -99,7 +102,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-lg">Visit Us</h3>
                 <p className="text-blue-400">
-                  123 Linen Street, Mumbai, India
+                  <span className="text-amber-400">UAE: </span>2205, Empire Heights 1, Business Bay, Dubai
                 </p>
               </div>
             </div>

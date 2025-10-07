@@ -39,6 +39,9 @@ export default function Footer() {
   <a href="tel:+971559533290" className="block hover:text-amber-300 transition">
     UAE: +971 55 953 3290
   </a>
+  <a href="tel:+97145589179" className="block hover:text-amber-300 transition">
+    UAE: +971 45 558 9179
+  </a>
 
   <a href="tel:+917006432968" className="block hover:text-amber-300 transition">
     India: +91 70064 32968
@@ -51,7 +54,9 @@ export default function Footer() {
 
           <div className="flex gap-4">
             {/* <a href="#" className="hover:text-amber-300 transition"><Facebook /></a> */}
-            <a href="https://instagram.com/warmket" className="hover:text-amber-300 transition"><Instagram /></a>
+            <a href="https://instagram.com/warmket" className="hover:text-amber-300 transition">
+            <Instagram />
+            </a>
             {/* <a href="#" className="hover:text-amber-300 transition"><Twitter /></a> */}
             <a href="mailto:info@warmket.com" className="hover:text-amber-300 transition"><Mail /></a>
           </div>
