@@ -2,10 +2,12 @@
 
 import { Mail, Phone, MapPin } from "lucide-react";
 import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 export default function ContactPage() {
   return (
 <>
+<Navbar/>
     <main className="font-sans bg-stone-950 text-white min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center">
@@ -30,7 +32,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 py-16 grid md:grid-cols-2 gap-12 relative">
+      <section className="max-w-7xl mx-auto px-6 md:px-12 py-16 grid md:grid-cols-2 gap-12 relative overflow-hidden">
         {/* Contact Form */}
         <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/10">
           <h2 className="text-2xl font-bold text-amber-300 mb-6">Send us a Message</h2>
@@ -66,7 +68,7 @@ export default function ContactPage() {
               <Mail className="w-8 h-8 text-amber-300" />
               <div>
                 <h3 className="font-semibold text-lg">Email</h3>
-                <p className="text-blue-400">support@warmket.com</p>
+                <p className="text-blue-400">info@warmket.com</p>
               </div>
             </div>
           </div>
@@ -76,7 +78,17 @@ export default function ContactPage() {
               <Phone className="w-8 h-8 text-blue-400" />
               <div>
                 <h3 className="font-semibold text-lg">Phone</h3>
-                <p className="text-blue-400">+91 98765 43210</p>
+                <a href="tel:+971559533290" className="text-blue-400 block hover:text-amber-300 transition">
+    UAE: +971 55 953 3290
+  </a>
+
+  <a href="tel:+917006432968" className="text-blue-400 block hover:text-amber-300 transition">
+    India: +91 70064 32968
+  </a>
+
+  <a href="tel:+919906888822" className="text-blue-400 block hover:text-amber-300 transition">
+    India: +91 99068 88822
+  </a>
               </div>
             </div>
           </div>
