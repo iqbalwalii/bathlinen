@@ -49,19 +49,25 @@ export default function Navbar() {
         <p className="text-gray-600 mb-4">
           Fill out the form below and we’ll get back to you with a personalized quote.
         </p>
-        <form className="space-y-4 flex flex-col items-center">
+        <form className="space-y-4 flex flex-col items-center" action="https://public.herotofu.com/v1/752e3ca0-a71d-11f0-a72d-cfd53f2c1510" method="post" acceptCharset="UTF-8">
           <input
             type="text"
+            name= "Name"
             placeholder="Your Name"
+            required
             className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-400 outline-none"
           />
           <input
             type="email"
+            name="email"
+            required
             placeholder="Your Email"
             className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-400 outline-none"
           />
           <textarea
             placeholder="Your Requirements"
+            required
+            name="Message"
             rows={4}
             className="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-400 outline-none"
           ></textarea>
@@ -71,6 +77,7 @@ export default function Navbar() {
           >
             Submit
           </button>
+          <input type="text" name="_gotcha" autoComplete="off" tabIndex={-1}/>
         </form>
       </Modal>
     </nav>

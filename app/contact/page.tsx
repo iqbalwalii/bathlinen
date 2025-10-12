@@ -36,20 +36,25 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/10">
           <h2 className="text-2xl font-bold text-amber-300 mb-6">Send us a Message</h2>
-          <form className="space-y-5">
+          <form className="space-y-5" action="https://public.herotofu.com/v1/752e3ca0-a71d-11f0-a72d-cfd53f2c1510" method="post" acceptCharset="UTF-8">
             <input
               type="text"
               placeholder="Your Name"
+              name="Name"
+              required
               className="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-300"
             />
             <input
               type="email"
               placeholder="Your Email"
+              name='email'
               className="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-300"
             />
             <textarea
               rows={5}
               placeholder="Your Message"
+              name="message"
+              required
               className="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-300"
             ></textarea>
             <button
@@ -58,6 +63,7 @@ export default function ContactPage() {
             >
               Send Message
             </button>
+            <input type="text" name="_gotcha" autoComplete="off" tabIndex={-1}/>
           </form>
         </div>
 

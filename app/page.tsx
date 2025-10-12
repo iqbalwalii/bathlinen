@@ -4,6 +4,7 @@ import Hero from "./components/hero";
 import Help from "./components/help";
 import FeatureBoxes from "./components/featureboxes";
 import Footer from "./components/footer";
+import CTA from "./components/cta";
 
 
 export default function Home() {

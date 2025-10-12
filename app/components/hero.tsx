@@ -44,7 +44,7 @@ export default function Hero() {
         <p className="text-xs sm:text-lg md:text-sm font-bold mb-4">
           Welcome to WarmKet
         </p>
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium mb-2 text-amber-200">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium mb-2 text-amber-300">
           Experience Unrivaled <br/> Comfort with Our <br/>Luxury Collection
         </h1>
         <p className="text-sm sm:text-lg md:text-xl max-w-xl">
