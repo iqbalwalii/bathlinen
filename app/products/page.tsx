@@ -20,7 +20,7 @@ const products = [
     description: "Cozy robe set in soft pink and grey hues.",
   },
   {
-    image: "/products/Brixton Shower mat.jpg",
+    image: "/products/Brixtonshowermat.jpg",
     title: "Brixton Shower Mat",
     description: "Durable shower mat with quick-dry texture.",
   },
